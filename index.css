@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Vujahday Script', cursive;
+}
+.container{
+    width: 100vw;
+    height: 2315px;
+    border: 2px solid black;
+    background-color: rgb(58, 55, 52);
+}
+.navbar{
+    display: flex;
+    margin:10px;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul li {
+display: inline;
+margin: 55px;
+padding: 10px;
+color:rgb(245, 184, 104);
+font-size: 35px;
+}
+ a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 45px;
+    font-weight: 500px;
+    color: white;
+}
+.search{
+    font-size: 25px;
+    color: rgb(192, 132, 77);
+}
+  .imgone{
+      display: flex;
+    border: 1px solid white;
+    height: 450px;
+    width: 1200px;
+    margin-top: 60px;
+    margin-left: 60px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(armi.jpg);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}  
+.imgone .text{
+   margin-left: 620px;
+   height:450px;
+   color:rgb(245, 184, 104) ;
+   font-size: 35px;
+   line-height: 25px;
+   margin-top: 50px;
+   letter-spacing: 5px;
+}
+p1{
+    padding: 100px;
+}
+p2{
+    padding: 100px;
+}
+h1{
+    margin: 10px;
+    margin-left: 590px;
+    padding: 5px;
+    color:rgb(245, 184, 104) ;
+}
+.image{
+    display: flex;
+    height: 450px;
+    width: 1200px;
+    margin-left: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    border-radius: 15px;
+}
+.image .left{
+    height: 450px;
+    width: 400px;
+    border: 1px solid white; 
+    background-image: url(para1.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin: 5px;
+}
+.image .mid{
+    height: 450px;
+    width: 400px;
+    border: 1px solid white;
+    background-image: url(para.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin: 5px;
+}
+.image .right{
+    height: 450px;
+    width: 400px;
+    border: 1px solid white;
+    background-image: url(marcos1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    border-radius: 15px;
+    margin: 5px;
+}
+.name{
+    display: flex;
+    height: 25px;
+    width: 1200px;
+    justify-content:space-evenly;
+}
+.name ul li{
+    display: inline;
+    font-size: 50px;
+    color:rgb(245, 184, 104) ;
+    margin:10px;
+    padding: 5px;
+}
+.imagetwo{
+    display: flex;
+    height: 450px;
+    width: 1200px;
+    margin-left: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 62px;
+    border-radius: 15px;
+
+}
+.imagetwo .left{
+    height: 450px;
+    width: 400px;
+    border: 1px solid white; 
+    background-image: url(blackcat.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+     margin:5px ;
+}
+.imagetwo .mid{
+    height: 450px;
+    width: 400px;
+    border: 1px solid white;
+    background-image: url(cobra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin: 5px;
+}
+.imagetwo .right{
+    height: 450px;
+    width: 400px;
+    border: 1px solid white;
+    background-image: url(ghatak.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    border-radius: 15px;
+    margin: 5px;
+
+}
+.name{
+    display: flex;
+    height: 25px;
+    width: 1200px;
+}
+.name ul li{
+    display: inline;
+    font-size: 50px;
+    color:rgb(245, 184, 104) ;
+    margin:100px;
+    padding: 5px;
+}
+.end{
+    display: block;
+    margin-top: 62px;
+    margin-left: 65px;
+    border-radius: 15px;
+    padding: 25px;
+    height: 520px;
+    width: 1200px;
+    border: 2px solid white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    color:rgb(245, 184, 104) ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.end.footer{
+    height:220px;
+    width: 1200px;
+    margin-right: 115px;
+}
+.rowa{
+    margin-top: 120px;
+    display: flex;
+   height: 45px;
+   width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+.rowa ul li{
+    display: inline;
+    margin: 12px;
+    padding: 5px;
+    font-size: 30px;
+}
+.rowa ul li a{
+    
+    color: white;
+}
+.rowb{
+    display: flex;
+   height: 45px;
+   width:1200px ;
+    justify-content: center;
+    align-items: center;
+}
+.rowb ul li{
+    display: inline;
+    margin: 12px;
+    padding: 5px;
+    font-size: 30px;
+}
+.rowb ul li a{    
+    color: white;
+}
+.icon{
+    height: 70px;
+    width: 1200px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 22px;
+}
+.icon a{
+    padding: 25px;
+    margin: 35px;
+    color: white;
+    font-size: 30px;
+}
+h4{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
